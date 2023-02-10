@@ -1,0 +1,31 @@
+input {
+  width: 444px;
+  height: 44px;
+  background-color: #fff;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+#button {
+  background-color: #fff;
+  height: 44px;
+  color: black;
+  border: none;
+  border-radius: 12px;
+}
+
+#myForm {
+  width: 555px;
+  border-radius: 22px;
+  margin: 22px auto;
+  text-align: center;
+}
+
+#div {
+  justify-content: space-around;
+  margin-right: 0;
+  flex-flow: row wrap;
+}

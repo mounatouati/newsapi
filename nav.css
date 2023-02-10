@@ -1,0 +1,44 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(207, 187, 180);
+    color: white;
+    display: block;
+  }
+  .logo {
+    background: left / cover url('/logo.jpg');
+    background-image: url('logo.jpg');
+    display: flex;
+    height: 10rem;;
+    align-items: center;
+    justify-content: center;
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', Arial;
+    color: rgb(251, 238, 233);
+    text-size-adjust: 10rem;
+    
+   text-shadow: #000 2px 2px 0.2rem;
+}
